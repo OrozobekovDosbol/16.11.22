@@ -8,6 +8,10 @@ body {
 }
 nav {
   background-color: rgb(0, 123, 123);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 nav ul {
   display: flex;
@@ -17,17 +21,27 @@ nav ul {
   margin: 0;
 }
 nav ul li {
-  padding: 10px 130px;
+  padding: 18px 130px;
 }
 nav ul li:hover {
   background-color: blanchedalmond;
-  color: black;
 }
 nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: 500;
 }
-nav ul li a:hover {
-  color: black;
+header {
+  display: flex;
+  color: white;
+  text-align: center;
+  background-image: url(./fon.jpg);
+  height: 250px;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 0;
 }
